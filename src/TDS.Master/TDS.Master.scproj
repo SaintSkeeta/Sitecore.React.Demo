@@ -31,6 +31,7 @@
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
     <DisableFileDeployment>False</DisableFileDeployment>
     <SitecoreAccessGuid>c41b8bd9-4db3-4360-8034-e947027bb3d8</SitecoreAccessGuid>
+    <InstallPackageIfMissing>true</InstallPackageIfMissing>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -50,9 +51,6 @@
       <Project>{d8e05c8b-aa55-4d33-a369-f334d5249dec}</Project>
       <Name>Sitecore.React.Demo</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <SitecorePackage Include="..\packages_Sitecore\SitecoreReact-1.0.0.zip" />
   </ItemGroup>
   <ItemGroup>
     <SitecoreItem Include="sitecore\content.item">
@@ -92,6 +90,9 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecorePackage Include="..\packages_Sitecore\SitecoreReact-1.0.0.zip" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>
