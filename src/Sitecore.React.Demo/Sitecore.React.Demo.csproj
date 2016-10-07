@@ -176,6 +176,9 @@
     <Content Include="readme.txt" />
     <Content Include="Views\web.config" />
     <Content Include="App_Config\Include\Sitecore.React\Sitecore.React.config" />
+    <Content Include="Views\Sample Inner View.cshtml" />
+    <Content Include="Views\Sample MVC layout.cshtml" />
+    <Content Include="Views\Sample View.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
