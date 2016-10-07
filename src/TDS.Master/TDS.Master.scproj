@@ -90,6 +90,10 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Sample\SampleReactRendering.item">
+      <ItemDeployment>DeployOnce</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
   </ItemGroup>
   <ItemGroup>
     <SitecorePackage Include="..\packages_Sitecore\SitecoreReact-1.0.0.zip" />

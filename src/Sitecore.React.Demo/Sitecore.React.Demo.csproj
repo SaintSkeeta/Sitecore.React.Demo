@@ -176,6 +176,7 @@
     <Content Include="readme.txt" />
     <Content Include="Views\web.config" />
     <Content Include="App_Config\Include\Sitecore.React\Sitecore.React.config" />
+    <Content Include="Views\SampleReact\SampleReactRendering.jsx" />
     <Content Include="Views\Sample Inner View.cshtml" />
     <Content Include="Views\Sample MVC layout.cshtml" />
     <Content Include="Views\Sample View.cshtml" />
@@ -191,8 +192,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\ReactConfig.cs" />
+    <Compile Include="Controllers\SampleReactController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
