@@ -8,7 +8,7 @@
     <ProjectGuid>66c81ad8-fddc-4667-ac90-60bb79da51cd</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <SourceWebPhysicalPath>..\Sitecore.React.Demo</SourceWebPhysicalPath>
-    <SourceWebProject>{d8e05c8b-aa55-4d33-a369-f334d5249dec}|Sitecore.React.Demo\Sitecore.React.Demo.csproj</SourceWebProject>
+    <SourceWebProject>{d8e05c8b-aa55-4d33-a369-f334d5249dec}|src\Sitecore.React.Demo\Sitecore.React.Demo.csproj</SourceWebProject>
     <SourceWebVirtualPath>/Sitecore.React.Demo.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
@@ -96,7 +96,7 @@
     </SitecoreItem>
   </ItemGroup>
   <ItemGroup>
-    <SitecorePackage Include="..\packages_Sitecore\SitecoreReact-1.0.0.zip" />
+    <SitecorePackage Include="..\..\packages_Sitecore\SitecoreReact-1.0.0.zip" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>

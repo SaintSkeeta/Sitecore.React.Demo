@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.React.Demo", "Sitecore.React.Demo\Sitecore.React.Demo.csproj", "{D8E05C8B-AA55-4D33-A369-F334D5249DEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.React.Demo", "src\Sitecore.React.Demo\Sitecore.React.Demo.csproj", "{D8E05C8B-AA55-4D33-A369-F334D5249DEC}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.Master", "TDS.Master\TDS.Master.scproj", "{66C81AD8-FDDC-4667-AC90-60BB79DA51CD}"
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.Master", "src\TDS.Master\TDS.Master.scproj", "{66C81AD8-FDDC-4667-AC90-60BB79DA51CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
